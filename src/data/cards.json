@@ -1,0 +1,160 @@
+{
+    "startingCards": [
+      {
+        "name": "Convincing Argument",
+        "cost": 0,
+        "agentAccess": {
+            "blue": 0,
+            "green": 0,
+            "yellow": 0,
+            "fremen": 0,
+            "beneGesserit": 0,
+            "spacingGuild": 0,
+            "emperor": 0
+        },
+        "persuasionPoints": 2,
+        "combatPoints": 0,
+        "specimen": 0,
+        "count": 2
+      },
+      {
+        "name": "Dagger",
+        "cost": 0,
+        "agentAccess": {
+            "blue": 0,
+            "green": 1,
+            "yellow": 0,
+            "fremen": 0,
+            "beneGesserit": 0,
+            "spacingGuild": 0,
+            "emperor": 0
+        },
+        "persuasionPoints": 0,
+        "combatPoints": 1,
+        "specimen": 0,
+        "count": 2
+      },
+      {
+        "name": "Diplomacy",
+        "cost": 0,
+        "agentAccess": {
+            "blue": 0,
+            "green": 0,
+            "yellow": 0,
+            "fremen": 1,
+            "beneGesserit": 1,
+            "spacingGuild": 1,
+            "emperor": 1
+        },
+        "persuasionPoints": 1,
+        "combatPoints": 0,
+        "specimen": 0,
+        "count": 1
+      },
+      {
+        "name": "Experimentation",
+        "cost": 0,
+        "agentAccess": {
+            "blue": 0,
+            "green": 0,
+            "yellow": 1,
+            "fremen": 0,
+            "beneGesserit": 0,
+            "spacingGuild": 0,
+            "emperor": 0
+        },
+        "persuasionPoints": 1,
+        "combatPoints": 0,
+        "specimen": 1,
+        "count": 2
+      },
+      {
+        "name": "Reconnaissance",
+        "cost": 0,
+        "agentAccess": {
+            "blue": 1,
+            "green": 0,
+            "yellow": 0,
+            "fremen": 0,
+            "beneGesserit": 0,
+            "spacingGuild": 0,
+            "emperor": 0
+        },
+        "persuasionPoints": 1,
+        "combatPoints": 0,
+        "specimen": 0,
+        "count": 1
+      },
+      {
+        "name": "Seek Allies",
+        "cost": 0,
+        "agentAccess": {
+            "blue": 0,
+            "green": 0,
+            "yellow": 0,
+            "fremen": 1,
+            "beneGesserit": 1,
+            "spacingGuild": 1,
+            "emperor": 1
+        },
+        "persuasionPoints": 0,
+        "combatPoints": 0,
+        "specimen": 0,
+        "count": 1
+      },
+      {
+        "name": "Signet Ring",
+        "cost": 0,
+        "agentAccess": {
+            "blue": 1,
+            "green": 1,
+            "yellow": 1,
+            "fremen": 0,
+            "beneGesserit": 0,
+            "spacingGuild": 0,
+            "emperor": 0
+        },
+        "persuasionPoints": 1,
+        "combatPoints": 0,
+        "specimen": 0,
+        "count": 1
+      }
+    ],
+    "imperiumRowCards": [
+        {
+            "name": "Card 1",
+            "cost": 0,
+            "agentAccess": {
+                "blue": 0,
+                "green": 0,
+                "yellow": 0,
+                "fremen": 0,
+                "beneGesserit": 0,
+                "spacingGuild": 0,
+                "emperor": 0
+            },
+            "persuasionPoints": 2,
+            "combatPoints": 0,
+            "specimen": 0,
+            "count": 2
+          },
+          {
+            "name": "Card 2",
+            "cost": 0,
+            "agentAccess": {
+                "blue": 0,
+                "green": 0,
+                "yellow": 0,
+                "fremen": 0,
+                "beneGesserit": 0,
+                "spacingGuild": 0,
+                "emperor": 0
+            },
+            "persuasionPoints": 2,
+            "combatPoints": 0,
+            "specimen": 0,
+            "count": 2
+          }
+    ]
+  }
+  
