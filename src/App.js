@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { GameProvider } from './context/GameContext';
+import Game from './components/Game';
 
 function App() {
+//import and use the 'Game' component
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Dune Imperium DBG Data Tracker</h1>
+      <Game />
     </div>
   );
 }
 
-export default App;
+export default () => (
+  <GameProvider>
+    <App />
+  </GameProvider>
+);
