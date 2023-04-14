@@ -1,0 +1,123 @@
+{
+    "startingDeck": [
+        {
+            "name": "convincingArgument",
+            "cost": 0,
+            "count": 2,
+            "graft": false,
+            "specialRules": false,
+            "revealReward": {
+                "persuasion": 2
+            }
+        },
+        {
+            "name": "dagger",
+            "cost": 0,
+            "count": 2,
+            "graft": false,
+            "specialRules": false,
+            "agentAccess": {
+                "standard": {
+                    "landsraad": true
+                }
+            },
+            "revealReward": {
+                "strength": 1
+            }
+        },
+        {
+            "name": "diplomacy",
+            "cost": 0,
+            "count": 1,
+            "graft": false,
+            "specialRules": false,
+            "agentAccess": {
+                "standard": {
+                    "factionAccess": {
+                        "emperor": true,
+                        "spacingGuild": true,
+                        "beneGesserit": true,
+                        "fremen": true
+                    }
+                }
+            },
+            "revealReward": {
+                "persuasion": 1
+            }
+        },
+        {
+            "name": "experimentation",
+            "cost": 0,
+            "count": 2,
+            "graft": false,
+            "specialRules": false,
+            "agentAccess": {
+                "standard": {
+                    "spiceTrade": true
+                }
+            },
+            "agentReward": {
+                "research": 1
+            },
+            "revealReward": {
+                "persuasion": 1,
+                "specimen": 1
+            }
+        },
+        {
+            "name": "reconnaissance",
+            "cost": 0,
+            "count": 1,
+            "graft": true,
+            "specialRules": true,
+            "agentAccess": {
+                "standard": {
+                    "city": true
+                }
+            },
+            "revealReward": {
+                "persuasion": 1
+            }
+        },
+        {
+            "name": "seekAllies",
+            "cost": 0,
+            "count": 1,
+            "graft": true,
+            "specialRules": false,
+            "agentAccess": {
+                "standard": {
+                    "factionAccess": {
+                        "emperor": true,
+                        "spacingGuild": true,
+                        "beneGesserit": true,
+                        "fremen": true
+                    }
+                }
+            },
+            "agentReward": {
+                "specialEffect": "Trash this card."
+            }
+        },
+        {
+            "name": "signetRing",
+            "cost": 0,
+            "count": 1,
+            "graft": false,
+            "specialRules": false,
+            "agentAccess": {
+                "standard": {
+                    "city": true,
+                    "landsraad": true,
+                    "spiceTrade": true
+                }
+            },
+            "agentReward": {
+                "signetRingAbility": true
+            },
+            "revealReward": {
+                "persuasion": 1
+            }
+        }
+    ]
+}
