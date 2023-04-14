@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Game.css';
 import GameSetup from '../GameSetup/GameSetup';
+import PlayerSetup from '../PlayerSetup/PlayerSetup';
 import PlayerDashboard from '../PlayerDashboard/PlayerDashboard';
 import ImperiumRow from '../ImperiumRow/ImperiumRow';
 import Round from '../Round/Round';
@@ -14,13 +15,27 @@ const Game = () => {
   const [cardsPurchased, setCardsPurchased] = useState([]); // Manage cards purchased
   const [cardsTrashed, setCardsTrashed] = useState([]); // Manage cards trashed
 
+  const startGame = (playerOrder, playerDecks) => {
+    setPlayerOrder(playerOrder);
+    setPlayerDecks(playerDecks);
+    setCurrentRound(1);
+  };
+
+  const endGame = () => {
+    // Reset all game state
+    setCurrentRound(1);
+    setPlayerOrder([]);
+    setPlayerDecks([]);
+    setCardsPlayed([]);
+    setCardsPurchased([]);
+    setCardsTrashed([]);
+  };
+
   // Use the components from components folder
   return (
     <div className="Game">
-      <GameSetup
-        setPlayerOrder={setPlayerOrder}
-        setPlayerDecks={setPlayerDecks}
-      />
+      <GameSetup startGame={startGame} />
+      <PlayerSetup setPlayerOrder={setPlayerOrder} setPlayerDecks={setPlayerDecks} />
       <PlayerDashboard
         playerOrder={playerOrder}
         playerDecks={playerDecks}
