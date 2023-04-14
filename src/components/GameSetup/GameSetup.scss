@@ -1,0 +1,66 @@
+.playerPositions {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.player {
+  position: absolute;
+  max-width: 50%;
+  padding: 1em;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+}
+
+.player1 {
+  top: 0;
+  left: 0;
+}
+
+.player2 {
+  top: 0;
+  right: 0;
+}
+
+.player3 {
+  bottom: 0;
+  left: 0;
+}
+
+.player4 {
+  bottom: 0;
+  right: 0;
+}
+
+.playerDeck {
+  display: inline-block;
+  position: relative;
+  margin-top: 1em;
+}
+
+.deckCount {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 0.25em;
+  font-size: 0.8em;
+  border-radius: 0.25em;
+}
+
+.playerPositions {
+  // ... other styles
+  .player {
+    // ... other styles
+    .playerDeck {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
